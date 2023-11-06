@@ -2,7 +2,7 @@
 int main(){
     int i;
     int A[70], B[70], C[70], D[70], E[70];
-    for (i = 1; i < 15; i+=1) {
+    for (i = 1; i < 15; i += 1) {
         A[i] = C[i];
         B[i] = A[i - 4];
         C[i] = B[i - 6];
